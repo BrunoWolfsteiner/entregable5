@@ -18,13 +18,13 @@
 .home__title{
     font-size: 2rem;
     margin-bottom: 20px;
-    color: #FE1936;
+    color: #000000;
 }
 .home__paragraph{
     font-size: 1.2rem;
     margin-bottom: 20px;
     text-align: center;
-    color: #FE1936
+    color: #000000
 }
 .home__form{
     display: flex;;
@@ -36,7 +36,7 @@
 .home__input{
     width: 100%;
     padding: 10px;
-    border: 1px solid #FE1936;
+    border: 1px solid #000000;
     border-radius: 5px;
     outline: none;
     text-transform: capitalize;
@@ -50,7 +50,7 @@
     cursor: pointer;
     outline: none;
     color: white;
-    background-color: #D93F3F;
+    background-color: #ff0000;
 }
 @media (max-width: 375px)
 {

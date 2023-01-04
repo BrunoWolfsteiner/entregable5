@@ -70,7 +70,7 @@ const Pokedex = () => {
       </header>
       <section className="pokedex__section">
         <form className='pokedex__form' onSubmit={handleSubmit}>
-          <input className='pokedex__input' id="search" type="text" placeholder='Search Your Pokemon!!!'/>
+          <input className='pokedex__input' id="search" type="text" placeholder='Search Your Pokemon'/>
           <button className='pokedex__btn'>Search</button>
         </form>
         <select className='pokedex__select' onChange={handleChange}>

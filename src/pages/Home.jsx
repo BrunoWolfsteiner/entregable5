@@ -2,7 +2,6 @@ import React from 'react';
 import { useDispatch } from 'react-redux';
 import { useNavigate } from 'react-router-dom';
 import {setTrainerGlobal} from '../store/slices/trainer.slice'
-import Footer from './Footer';
 import './styles/Home.css'
 
 
@@ -27,7 +26,6 @@ const Home = () => {
         <input className='home__input' id='name' type="text" />
         <button className='home__btn'>Start</button>
       </form>
-      <Footer/>
     </div>
   );
 };
