@@ -6,6 +6,7 @@ import PokemonNotFound from './PokemonNotFound';
 import './styles/PokemonInfo.css';
 import PokeLoading from './PokeLoading';
 import Header from './../../pages/Header';
+import App from '../../App';
 
 const PokemonInfo = () => {
   const { id } = useParams();
