@@ -2,7 +2,7 @@ import React from "react";
 import { useDispatch } from "react-redux";
 import { useNavigate } from "react-router-dom";
 import { setUserNameGlobal } from "../../store/slices/userName.slice";
-import "./FormHome.css";
+import "./formHome.css";
 
 const FormHome = () => {
   const dispatch = useDispatch();

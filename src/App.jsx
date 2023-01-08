@@ -1,6 +1,6 @@
 import { Routes, Route } from 'react-router-dom';
 import './App.css';
-import PokemonInfo from './components/pokedex/PokemonInfo';
+import PokemonInfo from './components/Pokedex/PokemonInfo';
 import ProtectedRoutes from './components/ProtectedRoutes';
 import Home from './pages/Home';
 import Pokedex from './pages/Pokedex';

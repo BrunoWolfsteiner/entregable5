@@ -3,10 +3,9 @@ import { useState } from 'react';
 import { useParams } from 'react-router-dom';
 import axios from 'axios';
 import PokemonNotFound from './PokemonNotFound';
-import './styles/PokemonInfo.css';
+import './styles/pokemonInfo.css';
 import PokeLoading from './PokeLoading';
 import Header from './../../pages/Header';
-import App from '../../App';
 
 const PokemonInfo = () => {
   const { id } = useParams();

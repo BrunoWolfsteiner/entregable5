@@ -1,5 +1,5 @@
 import React from 'react'
-import './styles/PokeLoading.css'
+import './styles/pokeLoading.css'
 
 const PokeLoading = () => {
   return (
