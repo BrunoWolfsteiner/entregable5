@@ -4,8 +4,8 @@ import { useEffect } from 'react';
 import { useState } from 'react';
 import { useSelector } from 'react-redux';
 import { useNavigate } from 'react-router-dom';
-import Pagination from '../components/Pokedex/Pagination';
-import Pokecard from './../components/Pokedex/Pokecard';
+import Pagination from './../components/Pokedex/Pagination';
+import Pokecard from './../components/Pokedex/PokeCard';
 import Header from './Header';
 import './styles/Pokedex.css';
 
